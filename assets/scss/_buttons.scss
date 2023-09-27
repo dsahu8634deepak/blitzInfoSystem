@@ -1,0 +1,55 @@
+.mainbutton {
+    background: transparent;
+    border-radius: 20px;
+    border: 1.4px solid black !important;
+    border-color: black !important;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        background-color: $theme1;
+        color: white;
+        border-color: black;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin mainbutton-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin mainbutton-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin mainbutton-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin mainbutton-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin mainbutton-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin mainbutton-mixin-max-xs() {
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin mainbutton-mixin-max-sm() {
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin mainbutton-mixin-max-md() {
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin mainbutton-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin mainbutton-mixin-max-xl() {
+}

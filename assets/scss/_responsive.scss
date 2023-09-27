@@ -1,0 +1,175 @@
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+    @include footermain-mixin-min-sm();
+    @include heading-mixin-min-sm();
+    @include mainbutton-mixin-min-sm();
+    @include homeSection-mixin-min-sm();
+    @include SectionSlide-mixin-min-sm();
+    @include infosystemSection-mixin-min-sm();
+    @include ourkeyFeature-mixin-min-sm();
+    @include serviceofferSection-mixin-min-sm();
+    @include loadingpage-mixin-min-sm();
+    @include davtechnosys-mixin-min-sm();
+    @include processWeflowSection-mixin-min-sm();
+    @include bussinesValueSection-mixin-min-sm();
+    @include createBigsection-mixin-min-sm();
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+    @include footermain-mixin-min-md();
+    @include heading-mixin-min-md();
+    @include mainbutton-mixin-min-md();
+    @include homeSection-mixin-min-md();
+    @include SectionSlide-mixin-min-md();
+    @include infosystemSection-mixin-min-md();
+    @include ourkeyFeature-mixin-min-md();
+    @include serviceofferSection-mixin-min-md();
+    @include loadingpage-mixin-min-md();
+    @include davtechnosys-mixin-min-md();
+    @include processWeflowSection-mixin-min-md();
+    @include bussinesValueSection-mixin-min-md();
+    @include createBigsection-mixin-min-md();
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    @include footermain-mixin-min-lg();
+    @include heading-mixin-min-lg();
+    @include mainbutton-mixin-min-lg();
+    @include homeSection-mixin-min-lg();
+    @include SectionSlide-mixin-min-lg();
+    @include infosystemSection-mixin-min-lg();
+    @include ourkeyFeature-mixin-min-lg();
+    @include serviceofferSection-mixin-min-lg();
+    @include loadingpage-mixin-min-lg();
+    @include davtechnosys-mixin-min-lg();
+    @include processWeflowSection-mixin-min-lg();
+    @include bussinesValueSection-mixin-min-lg();
+    @include createBigsection-mixin-min-lg();
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    @include footermain-mixin-min-xl();
+    @include heading-mixin-min-xl();
+    @include mainbutton-mixin-min-xl();
+    @include homeSection-mixin-min-xl();
+    @include SectionSlide-mixin-min-xl();
+    @include infosystemSection-mixin-min-xl();
+    @include ourkeyFeature-mixin-min-xl();
+    @include serviceofferSection-mixin-min-xl();
+    @include loadingpage-mixin-min-xl();
+    @include davtechnosys-mixin-min-xl();
+    @include processWeflowSection-mixin-min-xl();
+    @include bussinesValueSection-mixin-min-xl();
+    @include createBigsection-mixin-min-xl();
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+    @include footermain-mixin-min-xxl();
+    @include heading-mixin-min-xxl();
+    @include mainbutton-mixin-min-xxl();
+    @include homeSection-mixin-min-xxl();
+    @include SectionSlide-mixin-min-xxl();
+    @include infosystemSection-mixin-min-xxl();
+    @include ourkeyFeature-mixin-min-xxl();
+    @include serviceofferSection-mixin-min-xxl();
+    @include loadingpage-mixin-min-xxl();
+    @include davtechnosys-mixin-min-xxl();
+    @include processWeflowSection-mixin-min-xxl();
+    @include bussinesValueSection-mixin-min-xxl();
+    @include createBigsection-mixin-min-xxl();
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    @include footermain-mixin-max-xl();
+    @include heading-mixin-max-xl();
+    @include mainbutton-mixin-max-xl();
+    @include homeSection-mixin-max-xl();
+    @include SectionSlide-mixin-max-xl();
+    @include infosystemSection-mixin-max-xl();
+    @include ourkeyFeature-mixin-max-xl();
+    @include serviceofferSection-mixin-max-xl();
+    @include loadingpage-mixin-max-xl();
+    @include davtechnosys-mixin-max-xl();
+    @include processWeflowSection-mixin-max-xl();
+    @include bussinesValueSection-mixin-max-xl();
+    @include createBigsection-mixin-max-xl();
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    @include footermain-mixin-max-lg();
+    @include heading-mixin-max-lg();
+    @include mainbutton-mixin-max-lg();
+    @include homeSection-mixin-max-lg();
+    @include SectionSlide-mixin-max-lg();
+    @include infosystemSection-mixin-max-lg();
+    @include ourkeyFeature-mixin-max-lg();
+    @include serviceofferSection-mixin-max-lg();
+    @include loadingpage-mixin-max-lg();
+    @include davtechnosys-mixin-max-lg();
+    @include processWeflowSection-mixin-max-lg();
+    @include bussinesValueSection-mixin-max-lg();
+    @include createBigsection-mixin-max-lg();
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    @include footermain-mixin-max-md();
+    @include heading-mixin-max-md();
+    @include mainbutton-mixin-max-md();
+    @include homeSection-mixin-max-md();
+    @include SectionSlide-mixin-max-md();
+    @include ourkeyFeature-mixin-max-md();
+    @include infosystemSection-mixin-max-md();
+    @include serviceofferSection-mixin-max-md();
+    @include loadingpage-mixin-max-md();
+    @include davtechnosys-mixin-max-md();
+    @include processWeflowSection-mixin-max-md();
+    @include bussinesValueSection-mixin-max-md();
+    @include createBigsection-mixin-max-md();
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    @include footermain-mixin-max-sm();
+    @include heading-mixin-max-sm();
+    @include mainbutton-mixin-max-sm();
+    @include homeSection-mixin-max-sm();
+    @include SectionSlide-mixin-max-sm();
+    @include infosystemSection-mixin-max-sm();
+    @include ourkeyFeature-mixin-max-sm();
+    @include serviceofferSection-mixin-max-sm();
+    @include loadingpage-mixin-max-sm();
+    @include davtechnosys-mixin-max-sm();
+    @include processWeflowSection-mixin-max-sm();
+    @include bussinesValueSection-mixin-max-sm();
+    @include createBigsection-mixin-max-sm();
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+    @include footermain-mixin-max-xs();
+    @include heading-mixin-max-xs();
+    @include mainbutton-mixin-max-xs();
+    @include homeSection-mixin-max-xs();
+    @include SectionSlide-mixin-max-xs();
+    @include infosystemSection-mixin-max-xs();
+    @include ourkeyFeature-mixin-max-xs();
+    @include serviceofferSection-mixin-max-xs();
+    @include loadingpage-mixin-max-xs();
+    @include davtechnosys-mixin-max-xs();
+    @include processWeflowSection-mixin-max-xs();
+    @include bussinesValueSection-mixin-max-xs();
+    @include createBigsection-mixin-max-xs();
+}
+
+// XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width

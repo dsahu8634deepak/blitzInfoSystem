@@ -1,0 +1,21 @@
+.mainnavbar{
+    background-color: transparent;
+    z-index: 999999;
+    & .navbar-brand{
+
+    }
+    & .listmenu{
+        & li{
+            & span{
+                width: 35px;
+                height: 35px;
+                & img{
+
+                }
+            }
+            & a{
+
+            }
+        }
+    }
+}

@@ -1,0 +1,1507 @@
+@charset "UTF-8";
+@import "variables";
+//------------------------------------------HomePage-------------------------------------------------------
+[data-page-name="homeSection"] {
+    &.homeSection {
+        overflow-x: hidden;
+        position: relative;
+        & .leftSideContent {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+            & .perograph {
+                font-size: 13px;
+            }
+            & .buttonhome {
+                display: flex;
+                align-items: start;
+                justify-content: start;
+                width: 100%;
+            }
+        }
+        & .rightSigetopImage {
+            position: absolute;
+            background-image: url(../image/home/header-bg-shape.png);
+            object-fit: cover;
+            height: 100%;
+            width: 100%;
+            z-index: 1;
+            top: -10%;
+            background-size: cover;
+            background-position: top right;
+        }
+        & .rightSideContent {
+            & .imageheroSection {
+                height: 100%;
+                z-index: 2;
+                position: absolute;
+                & img {
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin homeSection-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin homeSection-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin homeSection-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin homeSection-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin homeSection-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin homeSection-mixin-max-xs() {
+    [data-page-name="homeSection"] {
+        &.homeSection {
+            height: unset !important;
+            position: relative;
+            & .leftSideContent {
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                flex-direction: column;
+                height: 100%;
+                & .perograph {
+                    font-size: 13px;
+                    text-align: center;
+                }
+                & .buttonhome {
+                    display: flex;
+                    align-items: start;
+                    justify-content: center;
+                    width: 100%;
+                }
+            }
+            & .rightSigetopImage {
+                position: unset;
+                background-image:none;
+                object-fit: unset;
+                height: unset;
+                width: unset;
+                z-index: index unset;;
+                top: unset;
+                background-size: unset;
+            }
+            & .rightSideContent {
+                & .imageheroSection {
+                    padding: 3rem;
+                    height: 100%;
+                    position: unset;
+                    width: 100%;
+                    & img {
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin homeSection-mixin-max-sm() {
+    [data-page-name="homeSection"] {
+        &.homeSection {
+            height: unset !important;
+            position: relative;
+            & .leftSideContent {
+                display: flex;
+                align-items: start;
+                justify-content: center;
+                flex-direction: column;
+                height: 100%;
+                & .perograph {
+                    font-size: 13px;
+                }
+                & .buttonhome {
+                    display: flex;
+                    align-items: start;
+                    justify-content: start;
+                    width: 100%;
+                }
+            }
+            & .rightSigetopImage {
+                position: unset;
+                background-image:none;
+                object-fit: unset;
+                height: unset;
+                width: unset;
+                z-index: index unset;;
+                top: unset;
+                background-size: unset;
+            }
+            & .rightSideContent {
+                & .imageheroSection {
+                    padding: 3rem;
+                    height: 100%;
+                    position: unset;
+                    width: 100%;
+                    & img {
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin homeSection-mixin-max-md() {
+    [data-page-name="homeSection"] {
+        &.homeSection {
+            position: relative;
+            & .leftSideContent {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                height: 100%;
+                & .perograph {
+                    font-size: 13px;
+                }
+                & .buttonhome {
+                    display: flex;
+                    align-items: start;
+                    justify-content: start;
+                    width: 100%;
+                }
+            }
+            & .rightSigetopImage {
+                position: unset;
+                background-image:none;
+                object-fit: unset;
+                height: unset;
+                width: unset;
+                z-index: index unset;;
+                top: unset;
+                background-size: unset;
+            }
+            & .rightSideContent {
+                & .imageheroSection {
+                    padding: 2rem;
+                    height: 100%;
+                    position: unset;
+                    width: 100%;
+                    & img {
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin homeSection-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin homeSection-mixin-max-xl() {
+}
+
+//----------------------------------------------------- SectionSlide Completed-----------------------------------------
+[data-page-name="SectionSlide"] {
+    &.SectionSlide {
+        background-color: #243139;
+        & .slideimage {
+            width: 160px;
+            height: 100px;
+            & img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin SectionSlide-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin SectionSlide-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin SectionSlide-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin SectionSlide-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin SectionSlide-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin SectionSlide-mixin-max-xs() {
+    [data-page-name="SectionSlide"] {
+        &.SectionSlide {
+            & .slideimage {
+                width: 140px;
+                height: 90px;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin SectionSlide-mixin-max-sm() {
+    [data-page-name="SectionSlide"] {
+        &.SectionSlide {
+            & .slideimage {
+                width: 140px;
+                height: 90px;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin SectionSlide-mixin-max-md() {
+    [data-page-name="SectionSlide"] {
+        &.SectionSlide {
+            & .slideimage {
+                width: 140px;
+                height: 90px;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin SectionSlide-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin SectionSlide-mixin-max-xl() {
+}
+// -----------------------------------------------------infosystemSection completed-------------------------------
+[data-page-name="infosystemSection"] {
+    &.infosystemSection {
+        & .subHeading {
+            font-size: 16px;
+            font-weight: 600;
+            color: #217bc0;
+        }
+        & .textSubheading {
+            font-size: 12px;
+            font-weight: 400;
+            color: #232222;
+        }
+        & .perograph {
+            font-size: 12px;
+            font-weight: 400;
+            color: #232222;
+            text-align: justify;
+            & strong {
+                color: #000000bf;
+                font-weight: 600;
+            }
+        }
+        & .unkownbox {
+            position: absolute;
+            background-color: #5babde;
+            height: 150px;
+            width: 100px;
+            right: 0;
+            bottom: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        & .card {
+            padding: 12px 26px;
+            & .card-body {
+                & .cardimage {
+                    width: 70px;
+                    height: 70px;
+                    margin: auto;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    & img {
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+                & .cardHeading {
+                    text-align: center;
+                    font-size: 31px;
+                    font-weight: 600;
+                    color: black;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+                & .cardtext {
+                    text-align: center;
+                    font-size: 11px;
+                    color: #1a1a1a;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+// Small devices (landscape phones, 576px and up)
+@mixin infosystemSection-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin infosystemSection-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin infosystemSection-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin infosystemSection-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin infosystemSection-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin infosystemSection-mixin-max-xs() {
+    [data-page-name="infosystemSection"] {
+        &.infosystemSection {
+            & .subHeading {
+                font-size: 20px;
+                text-align: center;
+            }
+            & .textSubheading {
+                font-size: 12px;
+                text-align: center;
+            }
+            & .perograph {
+                font-size: 12px;
+                & strong {
+                }
+            }
+            & .unkownbox {
+            }
+            & .card {
+                padding: 7px 14px;
+                & .card-body {
+                    & .cardimage {
+                        width: 70px;
+                        height: 70px;
+                        & img {
+                        }
+                    }
+                    & .cardHeading {
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                    & .cardtext {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin infosystemSection-mixin-max-sm() {
+    [data-page-name="infosystemSection"] {
+        &.infosystemSection {
+            & .subHeading {
+                font-size: 20px;
+                text-align: center;
+            }
+            & .textSubheading {
+                font-size: 12px;
+                text-align: center;
+            }
+            & .perograph {
+                font-size: 12px;
+                & strong {
+                }
+            }
+            & .unkownbox {
+            }
+            & .card {
+                height: 100%;
+                padding: 7px 14px;
+                & .card-body {
+                    & .cardimage {
+                        width: 70px;
+                        height: 70px;
+                        & img {
+                        }
+                    }
+                    & .cardHeading {
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                    & .cardtext {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin infosystemSection-mixin-max-md() {
+    [data-page-name="infosystemSection"] {
+        &.infosystemSection {
+            & .subHeading {
+                font-size: 20px;
+            }
+            & .textSubheading {
+                font-size: 12px;
+            }
+            & .perograph {
+                font-size: 12px;
+                & strong {
+                }
+            }
+            & .unkownbox {
+            }
+            & .card {
+                height: 100%;
+                padding: 7px 14px;
+                & .card-body {
+                    & .cardimage {
+                        width: 70px;
+                        height: 70px;
+                        & img {
+                        }
+                    }
+                    & .cardHeading {
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                    & .cardtext {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin infosystemSection-mixin-max-lg() {
+    [data-page-name="infosystemSection"] {
+        &.infosystemSection {
+            & .subHeading {
+                font-size: 20px;
+            }
+            & .textSubheading {
+                font-size: 12px;
+            }
+            & .perograph {
+                font-size: 12px;
+                & strong {
+                }
+            }
+            & .unkownbox {
+            }
+            & .card {
+                height: 100%;
+                padding: 7px 12px;
+                & .card-body {
+                    & .cardimage {
+                        width: 70px;
+                        height: 70px;
+                        & img {
+                        }
+                    }
+                    & .cardHeading {
+                        text-align: center;
+                        font-size: 20px;
+                    }
+                    & .cardtext {
+                        font-size: 11px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin infosystemSection-mixin-max-xl() {
+}
+//---------------------------------------------------- ourkeyFeature Completed----------------------------------------
+[data-page-name="ourkeyFeature"] {
+    &.ourkeyFeature {
+        background-image: linear-gradient(45deg, #cb6012, #954207);
+    }
+    & .headingourkey {
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        text-transform: capitalize;
+    }
+    & .subHeading {
+        font-size: 14px;
+        font-weight: 300;
+        color: white;
+        width: 40%;
+    }
+    & .carusealsection {
+        & .owl-carousel {
+            & .item {
+                & .card {
+                    background-image: linear-gradient(145deg, #cb6012, #954207);
+                    border: none;
+                    & .card-body {
+                        & .cardicon {
+                            height: 40px;
+                            width: 40px;
+                            margin-bottom: 10px;
+                            & img {
+                            }
+                        }
+                        & .heading {
+                            margin-bottom: 10px;
+                            font-size: 16px;
+                            font-weight: 600;
+                            color: white;
+                            line-height: 25px;
+                        }
+                        & .cardperograph {
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: white;
+                            line-height: 20px;
+                            margin-bottom: 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin ourkeyFeature-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin ourkeyFeature-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin ourkeyFeature-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin ourkeyFeature-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin ourkeyFeature-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin ourkeyFeature-mixin-max-xs() {
+    [data-page-name="ourkeyFeature"] {
+        &.ourkeyFeature {
+            background-image: linear-gradient(45deg, #cb6012, #954207);
+        }
+        & .headingourkey {
+            font-size: 20px;
+            text-align: center;
+        }
+        & .subHeading {
+            width: 100%;
+            text-align: center;
+        }
+        & .carusealsection {
+            & .owl-carousel {
+                & .item {
+                    & .card {
+                        & .card-body {
+                            & .cardicon {
+                                height: 40px;
+                                width: 40px;
+                                margin-bottom: 10px;
+                                margin: auto;
+                                & img {
+                                }
+                            }
+                            & .heading {
+                                font-size: 14px;
+                            }
+                            & .cardperograph {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin ourkeyFeature-mixin-max-sm() {
+    [data-page-name="ourkeyFeature"] {
+        &.ourkeyFeature {
+            background-image: linear-gradient(45deg, #cb6012, #954207);
+        }
+        & .headingourkey {
+            font-size: 20px;
+            text-align: center;
+        }
+        & .subHeading {
+            width: 100%;
+            text-align: center;
+        }
+        & .carusealsection {
+            & .owl-carousel {
+                & .item {
+                    & .card {
+                        & .card-body {
+                            & .cardicon {
+                                height: 40px;
+                                width: 40px;
+                                margin-bottom: 10px;
+                                margin: auto;
+                                & img {
+                                }
+                            }
+                            & .heading {
+                                font-size: 14px;
+                            }
+                            & .cardperograph {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin ourkeyFeature-mixin-max-md() {
+    [data-page-name="ourkeyFeature"] {
+        &.ourkeyFeature {
+            background-image: linear-gradient(45deg, #cb6012, #954207);
+        }
+        & .headingourkey {
+            font-size: 20px;
+            text-align: center;
+        }
+        & .subHeading {
+            width: 100%;
+            text-align: center;
+        }
+        & .carusealsection {
+            & .owl-carousel {
+                & .item {
+                    & .card {
+                        & .card-body {
+                            & .cardicon {
+                                height: 40px;
+                                width: 40px;
+                                margin-bottom: 10px;
+                                margin: auto;
+                                & img {
+                                }
+                            }
+                            & .heading {
+                                font-size: 14px;
+                            }
+                            & .cardperograph {
+                                text-align: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin ourkeyFeature-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin ourkeyFeature-mixin-max-xl() {
+}
+
+//--------------------------------------------------- serviceofferSection Completed-----------------------------------
+[data-page-name="serviceofferSection"] {
+    &.serviceofferSection {
+        & .headingService {
+            font-size: 25px;
+            font-weight: 600;
+            color: black;
+            text-transform: capitalize;
+            margin-bottom: 10px;
+        }
+        & .leftSidecontent {
+            border-right: 1.5px solid $theme1;
+            & .serviceperograph {
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 23px;
+            }
+            & .produectionheading {
+                font-size: 20px;
+                font-weight: 500;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+            }
+            & .produectDovelemenyt {
+                font-size: 20px;
+                font-weight: 500;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                color: $theme1;
+                position: relative;
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 67px;
+                    border: 1px solid #5cabdf;
+                    top: 39px;
+                    left: -76px;
+                }
+            }
+        }
+
+        & .rightSideContent {
+            & .imageright {
+                width: 200px;
+                height: 150px;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin serviceofferSection-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin serviceofferSection-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin serviceofferSection-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin serviceofferSection-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin serviceofferSection-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin serviceofferSection-mixin-max-xs() {
+    [data-page-name="serviceofferSection"] {
+        &.serviceofferSection {
+            & .headingService {
+                font-size: 20px;
+                margin-bottom: 7px;
+            }
+            & .leftSidecontent {
+                border: none;
+                & .serviceperograph {
+                    text-align: center;
+                }
+                & .produectionheading {
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                & .produectDovelemenyt {
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 2px;
+                    text-align: center;
+                    &::before {
+                        content: unset;
+                    }
+                }
+            }
+
+            & .rightSideContent {
+                & .imageright {
+                    width: 100%;
+                    height: 200px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin serviceofferSection-mixin-max-sm() {
+    [data-page-name="serviceofferSection"] {
+        &.serviceofferSection {
+            & .headingService {
+                font-size: 20px;
+                margin-bottom: 7px;
+            }
+            & .leftSidecontent {
+                border: none;
+                & .serviceperograph {
+                    text-align: center;
+                }
+                & .produectionheading {
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                & .produectDovelemenyt {
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 2px;
+                    text-align: center;
+                    &::before {
+                        content: unset;
+                    }
+                }
+            }
+
+            & .rightSideContent {
+                & .imageright {
+                    width: 100%;
+                    height: 200px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin serviceofferSection-mixin-max-md() {
+    [data-page-name="serviceofferSection"] {
+        &.serviceofferSection {
+            & .headingService {
+                font-size: 20px;
+                margin-bottom: 7px;
+            }
+            & .leftSidecontent {
+                border: none;
+                & .serviceperograph {
+                    text-align: center;
+                }
+                & .produectionheading {
+                    font-size: 16px;
+                    letter-spacing: 2px;
+                    text-align: center;
+                }
+                & .produectDovelemenyt {
+                    font-size: 16px;
+                    font-weight: 500;
+                    letter-spacing: 2px;
+                    text-align: center;
+                    &::before {
+                        content: unset;
+                    }
+                }
+            }
+
+            & .rightSideContent {
+                & .imageright {
+                    width: 100%;
+                    height: 200px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin serviceofferSection-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin serviceofferSection-mixin-max-xl() {
+}
+
+//--------------------------------------------- loadingpage completed---------------------------------------
+
+[data-page-name="loadingpage"] {
+    &.loadingpage {
+        background-image: linear-gradient(45deg, #5d5d5d, #6c6c6c);
+        & .headingleading {
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+            line-height: 30px;
+        }
+        & .perographleading {
+            font-size: 13px;
+            font-weight: 400;
+            line-height: 20px;
+            color: white;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin loadingpage-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin loadingpage-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin loadingpage-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin loadingpage-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin loadingpage-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin loadingpage-mixin-max-xs() {
+    [data-page-name="loadingpage"] {
+        &.loadingpage {
+            background-image: linear-gradient(45deg, #5d5d5d, #6c6c6c);
+            & .headingleading {
+                font-size: 20px;
+                line-height: 25px;
+            }
+            & .perographleading {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin loadingpage-mixin-max-sm() {
+    [data-page-name="loadingpage"] {
+        &.loadingpage {
+            background-image: linear-gradient(45deg, #5d5d5d, #6c6c6c);
+            & .headingleading {
+                font-size: 20px;
+                line-height: 30px;
+            }
+            & .perographleading {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin loadingpage-mixin-max-md() {
+    [data-page-name="loadingpage"] {
+        &.loadingpage {
+            background-image: linear-gradient(45deg, #5d5d5d, #6c6c6c);
+            & .headingleading {
+                font-size: 25px;
+                line-height: 30px;
+            }
+            & .perographleading {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin loadingpage-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin loadingpage-mixin-max-xl() {
+}
+
+//----------------------------------------- davtechnosys-------------------------------------
+
+[data-page-name="davtechnosys"] {
+    &.davtechnosys {
+        & .headingleading {
+            font-size: 28px;
+            font-weight: 600;
+            color: rgba(0, 0, 0, 0.768);
+        }
+        & .perographleading {
+            font-size: 13px;
+            font-weight: 300;
+            color: #6c6c6c;
+        }
+        & .mainbutton {
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin davtechnosys-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin davtechnosys-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin davtechnosys-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin davtechnosys-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin davtechnosys-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin davtechnosys-mixin-max-xs() {
+    [data-page-name="davtechnosys"] {
+        &.davtechnosys {
+            & .headingleading {
+                font-size: 20px;
+            }
+            & .perographleading {
+                font-size: 13px;
+                font-weight: 300;
+                color: #6c6c6c;
+            }
+            & .mainbutton {
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin davtechnosys-mixin-max-sm() {
+    [data-page-name="davtechnosys"] {
+        &.davtechnosys {
+            & .headingleading {
+                font-size: 22px;
+            }
+            & .perographleading {
+                font-size: 13px;
+            }
+            & .mainbutton {
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin davtechnosys-mixin-max-md() {
+    [data-page-name="davtechnosys"] {
+        &.davtechnosys {
+            & .headingleading {
+                font-size: 23px;
+            }
+            & .perographleading {
+                font-size: 13px;
+            }
+            & .mainbutton {
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin davtechnosys-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin davtechnosys-mixin-max-xl() {
+}
+//----------------------------------------- processWeflowSection completed-------------------------------------
+
+[data-page-name="processWeflowSection"] {
+    &.processWeflowSection {
+        & .headingsectin {
+            font-size: 30px;
+            font-weight: 600;
+            color: black;
+            text-transform: capitalize;
+        }
+        & .card {
+            & .card-body {
+                padding-top: 36px;
+                padding-bottom: 36px;
+                & .card-image {
+                    width: 40px;
+                    height: 40px;
+                    margin: auto;
+                    margin-bottom: 15px;
+                }
+                & .cardHeading {
+                    font-size: 12px;
+                    font-weight: 600;
+                    color: #000;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+                & .cardperograph {
+                    font-size: 11px;
+                    color: gray;
+                    line-height: 20px;
+                    margin-bottom: 10px;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin processWeflowSection-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin processWeflowSection-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin processWeflowSection-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin processWeflowSection-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin processWeflowSection-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin processWeflowSection-mixin-max-xs() {
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin processWeflowSection-mixin-max-sm() {
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin processWeflowSection-mixin-max-md() {
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin processWeflowSection-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin processWeflowSection-mixin-max-xl() {
+}
+//------------------------------------------------ The Teach Stack That Helps completed-----------------------------------------
+[data-page-name="bussinesValueSection"] {
+    &.bussinesValueSection {
+        & .mainHeading {
+            font-size: 30px;
+            font-weight: 800;
+            line-height: 38px;
+        }
+        & .subHeading {
+            font-size: 27px;
+            font-weight: 500;
+            color: #5cabdf;
+        }
+        & .headingsectin {
+            font-size: 30px;
+            font-weight: 600;
+            color: black;
+            text-transform: capitalize;
+        }
+        & .card {
+            & .card-body {
+                & .imagetext {
+                    & .image {
+                        width: 30px;
+                        height: 30px;
+                    }
+                    & .text {
+                        font-size: 13px;
+                        font-weight: 600;
+                        color: black;
+                    }
+                }
+                & .listlang {
+                    & li {
+                        font-size: 13px;
+                        color: black;
+                        & span {
+                            width: 20px;
+                            height: 20px;
+                            & img {
+                            }
+                        }
+                    }
+                }
+                & .readmorebtn {
+                    font-size: 13px;
+                    & span {
+                        width: 16px;
+                        height: 21px;
+                        & img {
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin bussinesValueSection-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin bussinesValueSection-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin bussinesValueSection-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin bussinesValueSection-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin bussinesValueSection-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin bussinesValueSection-mixin-max-xs() {
+    [data-page-name="bussinesValueSection"] {
+        &.bussinesValueSection {
+            & .mainHeading {
+                font-size: 20px;
+                line-height: 30px;
+            }
+            & .subHeading {
+                font-size: 18px;
+            }
+            & .headingsectin {
+                margin-top: 0;
+                font-size: 20px;
+                text-align: center;
+            }
+            & .card {
+                & .card-body {
+                    & .imagetext {
+                        & .image {
+                        }
+                        & .text {
+                        }
+                    }
+                    & .listlang {
+                        & li {
+                            & span {
+                                & img {
+                                }
+                            }
+                        }
+                    }
+                    & .readmorebtn {
+                        & span {
+                            width: 12px;
+                            & img {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin bussinesValueSection-mixin-max-sm() {
+    [data-page-name="bussinesValueSection"] {
+        &.bussinesValueSection {
+            & .mainHeading {
+                font-size: 20px;
+                line-height: 30px;
+            }
+            & .subHeading {
+                font-size: 18px;
+            }
+            & .headingsectin {
+                margin-top: 0;
+                font-size: 20px;
+                text-align: center;
+            }
+            & .card {
+                & .card-body {
+                    & .imagetext {
+                        & .image {
+                        }
+                        & .text {
+                        }
+                    }
+                    & .listlang {
+                        & li {
+                            & span {
+                                & img {
+                                }
+                            }
+                        }
+                    }
+                    & .readmorebtn {
+                        & span {
+                            width: 12px;
+                            & img {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin bussinesValueSection-mixin-max-md() {
+    [data-page-name="bussinesValueSection"] {
+        &.bussinesValueSection {
+            & .mainHeading {
+                font-size: 20px;
+                line-height: 30px;
+            }
+            & .subHeading {
+                font-size: 18px;
+            }
+            & .headingsectin {
+                margin-top: 0;
+                font-size: 20px;
+                text-align: center;
+            }
+            & .card {
+                & .card-body {
+                    & .imagetext {
+                        & .image {
+                        }
+                        & .text {
+                        }
+                    }
+                    & .listlang {
+                        & li {
+                            & span {
+                                & img {
+                                }
+                            }
+                        }
+                    }
+                    & .readmorebtn {
+                        & span {
+                            width: 12px;
+                            & img {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin bussinesValueSection-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin bussinesValueSection-mixin-max-xl() {
+}
+
+//------------------------------------------------ Let’s Create Big Stories Together completed-----------------------------------------
+[data-page-name="createBigsection"] {
+    &.createBigsection {
+        background-color: #e2bb78;
+        & .headingcreate {
+            font-size: 28px;
+            font-weight: 600;
+            line-height: 50px;
+        }
+        & .subHeading {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: 500;
+            color: #695c5c;
+        }
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@mixin createBigsection-mixin-min-sm() {
+}
+
+// Medium devices (tablets, 768px and up)
+@mixin createBigsection-mixin-min-md() {
+}
+
+// Large devices (desktops, 992px and up)
+@mixin createBigsection-mixin-min-lg() {
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@mixin createBigsection-mixin-min-xl() {
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@mixin createBigsection-mixin-min-xxl() {
+}
+
+// X-Small devices (portrait phones, less than 576px)
+@mixin createBigsection-mixin-max-xs() {
+    [data-page-name="createBigsection"] {
+        &.createBigsection {
+            & .headingcreate {
+                font-size: 20px;
+                line-height: 30px;
+            }
+            & .subHeading {
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@mixin createBigsection-mixin-max-sm() {
+}
+
+// Medium devices (tablets, less than 992px)
+@mixin createBigsection-mixin-max-md() {
+}
+
+// Large devices (desktops, less than 1200px)
+@mixin createBigsection-mixin-max-lg() {
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@mixin createBigsection-mixin-max-xl() {
+}
