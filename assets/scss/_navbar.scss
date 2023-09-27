@@ -1,20 +1,268 @@
-.mainnavbar{
+.mainnavbar {
     background-color: transparent;
-    z-index: 999999;
-    & .navbar-brand{
-
+    z-index: 999;
+    & .navbar-brand {
     }
-    & .listmenu{
-        & li{
-            & span{
+    & .listmenu {
+        & li {
+            & span {
                 width: 35px;
                 height: 35px;
-                & img{
-
+                & img {
                 }
             }
-            & a{
-
+            & a {
+                color: rgba(0, 0, 0, 0.763);
+            }
+        }
+    }
+}
+.headermodal {
+    background-color: #ebebeb;
+    & .modal-dialog {
+        & .modal-content {
+            & .modal-header {
+            }
+            & .modal-body {
+                & .mainheading {
+                    font-size: 18px;
+                    font-weight: 600;
+                    color: $theme1;
+                }
+                & .listleft {
+                    & li {
+                        & a {
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #737373;
+                        }
+                    }
+                }
+                & .rightSide {
+                    background-color: black;
+                    & .btn-close {
+                        position: absolute;
+                        right: 10px;
+                        top: 10px;
+                        filter: invert(6.8);
+                    }
+                    & .listright {
+                        display: flex;
+                        align-items: start;
+                        flex-direction: column;
+                        gap: 5px;
+                        & li {
+                            & a {
+                                color: white;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    & .footerlist {
+                        & li {
+                            & a {
+                                color: white;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 320px) and (max-width: 575.99px) {
+    .mainnavbar {
+       
+        & .navbar-brand {
+        }
+        & .listmenu {
+            & li {
+                & span {
+                    & img {
+                    }
+                }
+                & a { }
+            }
+        }
+    }
+    .headermodal {
+        display: none;
+        & .modal-dialog {
+            & .modal-content {
+                height: unset !important;
+                & .modal-header {
+                }
+                & .modal-body {
+                    & .mainheading {
+                    }
+                    & .listleft {
+                        & li {
+                            & a { }
+                        }
+                    }
+                    & .rightSide {
+                        & .btn-close {
+                        }
+                        & .listright {
+                            & li {
+                                & a {}
+                            }
+                        }
+                        & .footerlist {
+                            & li {
+                                & a {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 577px) and (max-width: 767.99px) {
+    .mainnavbar {
+       
+        & .navbar-brand {
+        }
+        & .listmenu {
+            & li {
+                & span {
+                    & img {
+                    }
+                }
+                & a { }
+            }
+        }
+    }
+    .headermodal {
+        display: none;
+        & .modal-dialog {
+            & .modal-content {
+                height: unset !important;
+                & .modal-header {
+                }
+                & .modal-body {
+                    & .mainheading {
+                    }
+                    & .listleft {
+                        & li {
+                            & a { }
+                        }
+                    }
+                    & .rightSide {
+                        & .btn-close {
+                        }
+                        & .listright {
+                            & li {
+                                & a {}
+                            }
+                        }
+                        & .footerlist {
+                            & li {
+                                & a {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 991.99px) {
+    .mainnavbar {
+       
+        & .navbar-brand {
+        }
+        & .listmenu {
+            & li {
+                & span {
+                    & img {
+                    }
+                }
+                & a { }
+            }
+        }
+    }
+    .headermodal {
+        display: none;
+        & .modal-dialog {
+            & .modal-content {
+                height: unset !important;
+                & .modal-header {
+                }
+                & .modal-body {
+                    & .mainheading {
+                    }
+                    & .listleft {
+                        & li {
+                            & a { }
+                        }
+                    }
+                    & .rightSide {
+                        & .btn-close {
+                        }
+                        & .listright {
+                            & li {
+                                & a {}
+                            }
+                        }
+                        & .footerlist {
+                            & li {
+                                & a {}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width: 769px) and (max-width: 991.99px) {
+    .mainnavbar {
+       
+        & .navbar-brand {
+        }
+        & .listmenu {
+            & li {
+                & span {
+                    & img {
+                    }
+                }
+                & a { }
+            }
+        }
+    }
+    .headermodal {
+        display: none;
+        & .modal-dialog {
+            & .modal-content {
+                height: unset !important;
+                & .modal-header {
+                }
+                & .modal-body {
+                    & .mainheading {
+                    }
+                    & .listleft {
+                        & li {
+                            & a { }
+                        }
+                    }
+                    & .rightSide {
+                        & .btn-close {
+                        }
+                        & .listright {
+                            & li {
+                                & a {}
+                            }
+                        }
+                        & .footerlist {
+                            & li {
+                                & a {}
+                            }
+                        }
+                    }
+                }
             }
         }
     }

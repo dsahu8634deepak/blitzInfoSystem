@@ -3,7 +3,7 @@
 //------------------------------------------HomePage-------------------------------------------------------
 [data-page-name="homeSection"] {
     &.homeSection {
-        overflow-x: hidden;
+        // overflow-x: hidden;
         position: relative;
         & .leftSideContent {
             display: flex;
@@ -23,14 +23,12 @@
         }
         & .rightSigetopImage {
             position: absolute;
-            // background-image: url(../image/home/header-bg-shape.png);
-            object-fit: cover;
-            height: 100%;
+            background-image: url(../image/home/header-bg-shape.png);
+            background-repeat: no-repeat;
             width: 100%;
-            z-index: 1;
-            top: -10%;
-            background-size: cover;
-            background-position: top right;
+            height: 100%;
+            top: -14%;
+            right: -9%;
         }
         & .rightSideContent {
             & .imageheroSection {

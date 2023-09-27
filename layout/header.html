@@ -4,57 +4,80 @@
 
         <div class="d-flex align-items-center">
             <ul class="listmenu list-unstyled d-flex align-items-center mb-0 gap-3 ">
-                <li class="d-none d-sm-block"><span class="d-inline-block"><img class="w-100 h-100" src="./assets/image/header/mike.svg" alt="mike"></span></li>
-                <li class="d-none d-sm-block"><span class="d-inline-block"><img class="w-100 h-100" src="./assets/image/header/whats-up.svg" alt="whats-up"></span></li>
+                <li class="d-none d-sm-block"><span class="d-inline-block"><img class="w-100 h-100"
+                            src="./assets/image/header/mike.svg" alt="mike"></span></li>
+                <li class="d-none d-sm-block"><span class="d-inline-block"><img class="w-100 h-100"
+                            src="./assets/image/header/whats-up.svg" alt="whats-up"></span></li>
                 <li class="d-none d-sm-block"><a href="">Menu</a></li>
             </ul>
-            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarDark"
-            aria-controls="offcanvasNavbarDark ">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        </div>
-        
-        
-        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbarDark"
-            aria-labelledby="offcanvasNavbarDarkLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title shadow-none border-0" id="offcanvasNavbarDarkLabel">Offcanvas</h5>
-                <button type="button " class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                    aria-label="Close"></button>
-                    <div class="">
-                        <ul>
-
-                        </ul>
-                    </div>
-            </div>
-            <div class="offcanvas-body">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex mt-3" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+            <button type="button" class="btn border-0 shadow-none" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <img class="w-100 h-100" src="./assets/image/icon/bars.svg" alt="">
+            </button>
         </div>
     </div>
 </nav>
+
+<!-- Button trigger modal -->
+
+
+
+
+
+
+
+
+<!-- Modal -->
+<div class="modal pt-3 headermodal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content border-0 vh-100">
+            <div class="modal-body py-0 px-0 h-100">
+                <div class="row mx-0 h-100">
+                    <div class="col-lg-6 ps-5 pt-5 order-md-1 order-2">
+                        <div class="mainheading mb-3">Mobile Application Development</div>
+                        <ul class="list-unstyled listleft">
+                            <li><a href="#">Android App Development</a></li>
+                            <li><a href="#">iPhone App Development</a></li>
+                            <li><a href="#">Hybrid App Development</a></li>
+                            <li><a href="#">Progressive Web Apps Development </a></li>
+                            <li><a href="#">iPad App Development</a></li>
+                            <li><a href="#">Mobile App Design Services</a></li>
+                        </ul>
+                        <div class="mainheading mb-3">Mobile Application Development</div>
+                        <ul class="list-unstyled listleft">
+                            <li><a href="#">Android App Development</a></li>
+                            <li><a href="#">iPhone App Development</a></li>
+                            <li><a href="#">Hybrid App Development</a></li>
+                            <li><a href="#">Progressive Web Apps Development </a></li>
+                            <li><a href="#">iPad App Development</a></li>
+                            <li><a href="#">Mobile App Design Services</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 rightSide px-5 pt-5 order-1 order-md-2">
+                        <button type="button" class="btn-close border-0 shadow-none mb-4" data-bs-dismiss="modal" aria-label="Close"><span></span></button>
+                        <ul class="list-unstyled listright">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Industry</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <ul class="list-unstyled d-flex align-items-center justify-content-between footerlist pt-5">
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Youtube</a></li>
+                            <li><a href="#">Facebook</a></li>
+
+                        </ul>
+                        <ul class="list-unstyled d-flex align-items-center justify-content-between footerlist">
+                            <li><a href="#">What'sup</a></li>
+                            <li><a href="#">email</a></li>
+                            <li><a href="#">Skype</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
