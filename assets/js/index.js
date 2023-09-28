@@ -5,16 +5,16 @@ $(function () {
 });
 // include Header
 // header color change
-// $(function () {
-//     $(window).on("scroll", function () {
-//         if ($(window).scrollTop() > 70) {
-//             $(".NavbarMain").addClass("active");
-//         } else {
-//             //remove the background property so it comes transparent again (defined in your css)
-//             $(".NavbarMain").removeClass("active");
-//         }
-//     });
-// });
+$(function () {
+    $(window).on("scroll", function () {
+        if ($(window).scrollTop() > 70) {
+            $(".mainnavbar").addClass("active");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+            $(".mainnavbar").removeClass("active");
+        }
+    });
+});
 // header color change
 
 // owl

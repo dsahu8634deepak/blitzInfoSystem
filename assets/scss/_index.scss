@@ -292,7 +292,7 @@
         & .subHeading {
             font-size: 16px;
             font-weight: 600;
-            color: #217bc0;
+            color: $theme1;
         }
         & .textSubheading {
             font-size: 12px;
@@ -311,7 +311,7 @@
         }
         & .unkownbox {
             position: absolute;
-            background-color: #5babde;
+            background-color: $theme1;
             height: 150px;
             width: 100px;
             right: 0;
@@ -337,7 +337,7 @@
                     text-align: center;
                     font-size: 31px;
                     font-weight: 600;
-                    color: black;
+                    color: $black;
                     padding-top: 10px;
                     padding-bottom: 10px;
                 }
@@ -546,20 +546,20 @@
     & .headingourkey {
         font-size: 20px;
         font-weight: 600;
-        color: white;
+        color: $white;
         text-transform: capitalize;
     }
     & .subHeading {
         font-size: 14px;
         font-weight: 300;
-        color: white;
+        color: $white;
         width: 40%;
     }
     & .carusealsection {
         & .owl-carousel {
             & .item {
                 & .card {
-                    background-image: linear-gradient(145deg, #cb6012, #954207);
+                    background-image: linear-gradient(145deg, #cb6012, $theme2);
                     border: none;
                     & .card-body {
                         & .cardicon {
@@ -573,13 +573,13 @@
                             margin-bottom: 10px;
                             font-size: 16px;
                             font-weight: 600;
-                            color: white;
+                            color: $white;
                             line-height: 25px;
                         }
                         & .cardperograph {
                             font-size: 12px;
                             font-weight: 400;
-                            color: white;
+                            color: $white;
                             line-height: 20px;
                             margin-bottom: 10px;
                         }
@@ -614,7 +614,7 @@
 @mixin ourkeyFeature-mixin-max-xs() {
     [data-page-name="ourkeyFeature"] {
         &.ourkeyFeature {
-            background-image: linear-gradient(45deg, #cb6012, #954207);
+            background-image: linear-gradient(45deg, #cb6012, $theme2);
         }
         & .headingourkey {
             font-size: 20px;
@@ -655,7 +655,7 @@
 @mixin ourkeyFeature-mixin-max-sm() {
     [data-page-name="ourkeyFeature"] {
         &.ourkeyFeature {
-            background-image: linear-gradient(45deg, #cb6012, #954207);
+            background-image: linear-gradient(45deg, #cb6012, $theme2);
         }
         & .headingourkey {
             font-size: 20px;
@@ -696,7 +696,7 @@
 @mixin ourkeyFeature-mixin-max-md() {
     [data-page-name="ourkeyFeature"] {
         &.ourkeyFeature {
-            background-image: linear-gradient(45deg, #cb6012, #954207);
+            background-image: linear-gradient(45deg, #cb6012, $theme2);
         }
         & .headingourkey {
             font-size: 20px;
@@ -747,7 +747,7 @@
         & .headingService {
             font-size: 25px;
             font-weight: 600;
-            color: black;
+            color: $black;
             text-transform: capitalize;
             margin-bottom: 10px;
         }
@@ -775,7 +775,7 @@
                     content: "";
                     position: absolute;
                     width: 67px;
-                    border: 1px solid #5cabdf;
+                    border: 1px solid $theme1;
                     top: 39px;
                     left: -76px;
                 }
@@ -947,14 +947,14 @@
         & .headingleading {
             font-size: 25px;
             font-weight: 600;
-            color: white;
+            color: $white;
             line-height: 30px;
         }
         & .perographleading {
             font-size: 13px;
             font-weight: 400;
             line-height: 20px;
-            color: white;
+            color: $white;
         }
     }
 }
@@ -1138,7 +1138,7 @@
         & .headingsectin {
             font-size: 30px;
             font-weight: 600;
-            color: black;
+            color: $black;
             text-transform: capitalize;
         }
         & .card {
@@ -1154,7 +1154,7 @@
                 & .cardHeading {
                     font-size: 12px;
                     font-weight: 600;
-                    color: #000;
+                    color: $black;
                     margin-bottom: 10px;
                     text-align: center;
                 }
@@ -1220,12 +1220,12 @@
         & .subHeading {
             font-size: 27px;
             font-weight: 500;
-            color: #5cabdf;
+            color: $theme1;
         }
         & .headingsectin {
             font-size: 30px;
             font-weight: 600;
-            color: black;
+            color: $black;
             text-transform: capitalize;
         }
         & .card {
@@ -1238,13 +1238,13 @@
                     & .text {
                         font-size: 13px;
                         font-weight: 600;
-                        color: black;
+                        color: $black;
                     }
                 }
                 & .listlang {
                     & li {
                         font-size: 13px;
-                        color: black;
+                        color: $black;
                         & span {
                             width: 20px;
                             height: 20px;

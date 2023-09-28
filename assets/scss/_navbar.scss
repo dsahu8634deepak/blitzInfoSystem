@@ -1,8 +1,28 @@
 .mainnavbar {
-    background-color: transparent;
-    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.5s ease-in-out;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
     & .navbar-brand {
-        color: #2f6a97;
+        color: $theme1;
+    }
+    &.active {
+        background-color: $theme1;
+        & .navbar-brand {
+            color: $white;
+        }
+        & .listmenu {
+            & li {
+                & a {
+                    color: $white;
+                }
+            }
+        }
     }
     & .listmenu {
         & li {
@@ -13,7 +33,7 @@
                 }
             }
             & a {
-                color: rgba(0, 0, 0, 0.763);
+                color: #000000c3;
             }
         }
     }
@@ -74,7 +94,6 @@
 }
 @media (min-width: 320px) and (max-width: 575.99px) {
     .mainnavbar {
-       
         & .navbar-brand {
         }
         & .listmenu {
@@ -83,7 +102,8 @@
                     & img {
                     }
                 }
-                & a { }
+                & a {
+                }
             }
         }
     }
@@ -99,7 +119,8 @@
                     }
                     & .listleft {
                         & li {
-                            & a { }
+                            & a {
+                            }
                         }
                     }
                     & .rightSide {
@@ -107,12 +128,14 @@
                         }
                         & .listright {
                             & li {
-                                & a {}
+                                & a {
+                                }
                             }
                         }
                         & .footerlist {
                             & li {
-                                & a {}
+                                & a {
+                                }
                             }
                         }
                     }
@@ -123,7 +146,6 @@
 }
 @media (min-width: 577px) and (max-width: 767.99px) {
     .mainnavbar {
-       
         & .navbar-brand {
         }
         & .listmenu {
@@ -132,7 +154,8 @@
                     & img {
                     }
                 }
-                & a { }
+                & a {
+                }
             }
         }
     }
@@ -148,7 +171,8 @@
                     }
                     & .listleft {
                         & li {
-                            & a { }
+                            & a {
+                            }
                         }
                     }
                     & .rightSide {
@@ -156,12 +180,14 @@
                         }
                         & .listright {
                             & li {
-                                & a {}
+                                & a {
+                                }
                             }
                         }
                         & .footerlist {
                             & li {
-                                & a {}
+                                & a {
+                                }
                             }
                         }
                     }
@@ -172,7 +198,6 @@
 }
 @media (min-width: 769px) and (max-width: 991.99px) {
     .mainnavbar {
-       
         & .navbar-brand {
         }
         & .listmenu {
@@ -181,7 +206,8 @@
                     & img {
                     }
                 }
-                & a { }
+                & a {
+                }
             }
         }
     }
@@ -197,7 +223,8 @@
                     }
                     & .listleft {
                         & li {
-                            & a { }
+                            & a {
+                            }
                         }
                     }
                     & .rightSide {
@@ -205,12 +232,14 @@
                         }
                         & .listright {
                             & li {
-                                & a {}
+                                & a {
+                                }
                             }
                         }
                         & .footerlist {
                             & li {
-                                & a {}
+                                & a {
+                                }
                             }
                         }
                     }
@@ -221,7 +250,6 @@
 }
 @media (min-width: 769px) and (max-width: 991.99px) {
     .mainnavbar {
-       
         & .navbar-brand {
         }
         & .listmenu {
@@ -230,7 +258,8 @@
                     & img {
                     }
                 }
-                & a { }
+                & a {
+                }
             }
         }
     }
@@ -246,7 +275,8 @@
                     }
                     & .listleft {
                         & li {
-                            & a { }
+                            & a {
+                            }
                         }
                     }
                     & .rightSide {
@@ -254,12 +284,14 @@
                         }
                         & .listright {
                             & li {
-                                & a {}
+                                & a {
+                                }
                             }
                         }
                         & .footerlist {
                             & li {
-                                & a {}
+                                & a {
+                                }
                             }
                         }
                     }
